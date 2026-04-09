@@ -1,0 +1,402 @@
+[
+  {
+    "full_name": "Oliver Sani",
+    "email": "oliversani0@gmail.com",
+    "password_hash": "5@9qt4txPL",
+    "phone": "9106977169",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Pallavi Gupta",
+    "email": "pallavigupta1@yahoo.co.in",
+    "password_hash": "70EXPFJpe!",
+    "phone": "9742328405",
+    "role": "Vendar",
+    "is_active": false
+  },
+  {
+    "full_name": "Jagdish Viswanathan",
+    "email": "jagdishviswanathan2@icloud.com",
+    "password_hash": "MG82tufBe&",
+    "phone": "9724644313",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Henry Panchal",
+    "email": "henrypanchal3@yahoo.co.in",
+    "password_hash": "10hfSy!1Ib",
+    "phone": "9947275253",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Falguni Chander",
+    "email": "falgunichander4@outlook.com",
+    "password_hash": "XIuw9ro@7m",
+    "phone": "7692282894",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Charvi Samra",
+    "email": "charvisamra5@outlook.com",
+    "password_hash": "arm7%41QfD",
+    "phone": "8112295134",
+    "role": "admin",
+    "is_active": true
+  },
+  {
+    "full_name": "Advaith Toor",
+    "email": "advaithtoor6@outlook.com",
+    "password_hash": "k06EeC&g8r",
+    "phone": "9181252352",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Warhi Kota",
+    "email": "warhikota7@outlook.com",
+    "password_hash": "JvptXwUc9#",
+    "phone": "7197378449",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Patrick Pandit",
+    "email": "patrickpandit8@outlook.com",
+    "password_hash": "%mgC58XB2y",
+    "phone": "8587420337",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Urmi Murthy",
+    "email": "urmimurthy9@icloud.com",
+    "password_hash": "bE&vIYQ4uC",
+    "phone": "9963708830",
+    "role": "admin",
+    "is_active": true
+  },
+  {
+    "full_name": "Yagnesh Garde",
+    "email": "yagneshgarde10@yahoo.co.in",
+    "password_hash": "I@44hCaMe6",
+    "phone": "9248060484",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Aditya Arya",
+    "email": "adityaarya11@outlook.com",
+    "password_hash": "zQ12R&qBrN",
+    "phone": "7131651092",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Charles Gera",
+    "email": "charlesgera12@gmail.com",
+    "password_hash": "9RX!IKi8fZ",
+    "phone": "7530187814",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Barkha Sinha",
+    "email": "barkhasinha13@yahoo.co.in",
+    "password_hash": "K8lY!ThtLL",
+    "phone": "7839203098",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Tanay Shukla",
+    "email": "tanayshukla14@outlook.com",
+    "password_hash": "*nbjKK9yWt",
+    "phone": "9475755040",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Vedika Din",
+    "email": "vedikadin15@yahoo.co.in",
+    "password_hash": "iAP5%AfoQ9",
+    "phone": "9707120996",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Ijaya Balay",
+    "email": "ijayabalay16@icloud.com",
+    "password_hash": "84i$EfOZVO",
+    "phone": "8792177159",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Faras Mangat",
+    "email": "farasmangat17@outlook.com",
+    "password_hash": "5%7PFLYvbk",
+    "phone": "8239694123",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Wyatt Dua",
+    "email": "wyattdua18@yahoo.co.in",
+    "password_hash": "Mo2iMCODa^",
+    "phone": "7128998697",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Mahika Khurana",
+    "email": "mahikakhurana19@icloud.com",
+    "password_hash": "x9EI3D8dL%",
+    "phone": "8686212735",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Suhani Apte",
+    "email": "suhaniapte20@yahoo.co.in",
+    "password_hash": "pgMKcKFg5%",
+    "phone": "9919975573",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Lakshit Handa",
+    "email": "lakshithanda21@yahoo.co.in",
+    "password_hash": "y1BENCKCt^",
+    "phone": "8559958839",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Anthony Magar",
+    "email": "anthonymagar22@icloud.com",
+    "password_hash": "q*8WX5wxWK",
+    "phone": "8446908385",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Ojas Srivastava",
+    "email": "ojassrivastava23@outlook.com",
+    "password_hash": "Ys0%Kz1Axb",
+    "phone": "8733237274",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Yashica Toor",
+    "email": "yashicatoor24@outlook.com",
+    "password_hash": "61j^4ku3DT",
+    "phone": "7102028913",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Chaitanya Kaur",
+    "email": "chaitanyakaur25@gmail.com",
+    "password_hash": "psN^709iRI",
+    "phone": "8518828322",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Divya Patel",
+    "email": "divyapatel26@outlook.com",
+    "password_hash": "JTnU*KqO0e",
+    "phone": "7637637259",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Garima Srivastava",
+    "email": "garimasrivastava27@yahoo.co.in",
+    "password_hash": "5VBo$uzPe9",
+    "phone": "9667632095",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Arunima Koshy",
+    "email": "arunimakoshy28@icloud.com",
+    "password_hash": "E6MVX4G^zd",
+    "phone": "7632202385",
+    "role": "admin",
+    "is_active": true
+  },
+  {
+    "full_name": "Tamanna De",
+    "email": "tamannade29@icloud.com",
+    "password_hash": "%228uSTIt3",
+    "phone": "7547297986",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Forum Kala",
+    "email": "forumkala30@gmail.com",
+    "password_hash": "Sxj0wo$xWO",
+    "phone": "9717390278",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Harshil Pal",
+    "email": "harshilpal31@gmail.com",
+    "password_hash": "pY39kcgN$L",
+    "phone": "8819146837",
+    "role": "Vendar",
+    "is_active": false
+  },
+  {
+    "full_name": "Niharika Natt",
+    "email": "niharikanatt32@outlook.com",
+    "password_hash": "C#br1B2F6G",
+    "phone": "9798924310",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Girish Nair",
+    "email": "girishnair33@outlook.com",
+    "password_hash": "*MwH6xsl09",
+    "phone": "7854490752",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Luke Muni",
+    "email": "lukemuni34@icloud.com",
+    "password_hash": "aQ1q8EIXJ#",
+    "phone": "9486432903",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Omya Krish",
+    "email": "omyakrish35@icloud.com",
+    "password_hash": "TOdj%5LrB7",
+    "phone": "9962521943",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Nathaniel Suresh",
+    "email": "nathanielsuresh36@yahoo.co.in",
+    "password_hash": "$E8GUmok4y",
+    "phone": "9274542104",
+    "role": "admin",
+    "is_active": true
+  },
+  {
+    "full_name": "Netra Kashyap",
+    "email": "netrakashyap37@yahoo.co.in",
+    "password_hash": "&AX69XOuxk",
+    "phone": "8744616554",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Inaya Narula",
+    "email": "inayanarula38@gmail.com",
+    "password_hash": "l!Kn890MeZ",
+    "phone": "8548502785",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Aarav Dewan",
+    "email": "aaravdewan39@icloud.com",
+    "password_hash": "1vdfgxin$C",
+    "phone": "8581476768",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Anita Shere",
+    "email": "anitashere40@gmail.com",
+    "password_hash": "6@WkSNzJ51",
+    "phone": "8708000167",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Jason Mitra",
+    "email": "jasonmitra41@icloud.com",
+    "password_hash": "iyuU8!xflF",
+    "phone": "8600365138",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Osha Chakrabarti",
+    "email": "oshachakrabarti42@yahoo.co.in",
+    "password_hash": "uN6eMi5#5e",
+    "phone": "8703647182",
+    "role": "Vendar",
+    "is_active": false
+  },
+  {
+    "full_name": "Chaaya Salvi",
+    "email": "chaayasalvi43@gmail.com",
+    "password_hash": "S6Cxwx*mDB",
+    "phone": "7268880299",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Abha Dave",
+    "email": "abhadave44@yahoo.co.in",
+    "password_hash": "x%xr4NySeR",
+    "phone": "9971804869",
+    "role": "admin",
+    "is_active": true
+  },
+  {
+    "full_name": "Jalsa Sabharwal",
+    "email": "jalsasabharwal45@gmail.com",
+    "password_hash": "7pL2APgh#0",
+    "phone": "8758640351",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Bakhshi Ahuja",
+    "email": "bakhshiahuja46@gmail.com",
+    "password_hash": "cwvG3&5O7C",
+    "phone": "8713604555",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Arunima Sant",
+    "email": "arunimasant47@gmail.com",
+    "password_hash": "BXnny$8UOt",
+    "phone": "7951881137",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Vedant Anne",
+    "email": "vedantanne48@yahoo.co.in",
+    "password_hash": "ru3TTX@pih",
+    "phone": "9995443659",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Lipika Shukla",
+    "email": "lipikashukla49@gmail.com",
+    "password_hash": "PzJR%34iI5",
+    "phone": "8809168253",
+    "role": "Vendar",
+    "is_active": true
+  }
+]

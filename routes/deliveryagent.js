@@ -1,0 +1,31 @@
+const express = require("express");
+const router = express.Router();
+
+const deliveryController = require("../controllers/deliveryController");
+
+const authenticate = require("../middlewere/authenticate_middlewere");
+const roleVerifyMiddlewere = require("../middlewere/roleVerifyMiddlewere");
+
+// ------------------------------------------------------------------------------
+
+router.patch("/profile", authenticate, deliveryController.patchCurrentAgent);
+router.delete("/profile", authenticate, deliveryController.deleteCurrentAgent);
+
+router.get(
+  "/",
+  authenticate,
+  roleVerifyMiddlewere("admin"), // only admin can see all agents
+  deliveryController.getAllAgents
+);
+
+router.get("/:id", authenticate, deliveryController.getAgentById);
+
+// 👉 SIGNUP (same like user)
+router.post("/", deliveryController.signUpDelivery);
+
+router.patch("/:id", deliveryController.patchAgent);
+router.delete("/:id", deliveryController.deleteAgent);
+
+// ------------------------------------------------------------------------------
+
+module.exports = router;

@@ -1,0 +1,26 @@
+[
+  {
+    "full_name": "Nikhil Gupta",
+    "email": "nikhil@example.com",
+    "password_hash": "Strong@123",
+    "phone": "9876543210",
+    "role": "admin",
+    "is_active": true
+  },
+  {
+    "full_name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "password_hash": "Strong@456",
+    "phone": "9123456780",
+    "role": "Vendar",
+    "is_active": true
+  },
+  {
+    "full_name": "Amit Verma",
+    "email": "amit@example.com",
+    "password_hash": "Strong@789",
+    "phone": "9012345678",
+    "role": "Vendar",
+    "is_active": true
+  }
+]
