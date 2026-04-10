@@ -28,7 +28,7 @@ const User = sequelize.define(
     },
     password_hash: {
       type: DataTypes.STRING(255),
-      allowNull: false,
+      allowNull: true,
       validate: {
         isStrong(value) {
           if (!validator.isStrongPassword(value)) {
@@ -39,12 +39,12 @@ const User = sequelize.define(
     },
     phone: {
       type: DataTypes.STRING(20),
-      allowNull: false
+      allowNull: true
     },
     role: {
-      type: DataTypes.ENUM("Vendor", "admin"),
+      type: DataTypes.ENUM("user", "admin"),
       allowNull: false,
-      defaultValue: "Vendor",
+      defaultValue: "user"
     },
     is_active: {
       type: DataTypes.BOOLEAN,

@@ -1,5 +1,6 @@
 const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/sql");
+const validator = require("validator");
 
 const Agent = sequelize.define(
   "Agent",
@@ -30,6 +31,17 @@ const Agent = sequelize.define(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    password_hash:{
+      type: DataTypes.STRING(255),
+            allowNull: false,
+            validate: {
+              isStrong(value) {
+                if (!validator.isStrongPassword(value)) {
+                  throw new Error("Password must be strong");
+                }
+              },
+            },
+    },
     subregion: {
       type: DataTypes.STRING,
       allowNull: true, // Set to true if some agents don't have a specific zone
@@ -53,6 +65,14 @@ const Agent = sequelize.define(
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: true,
+    },
+    otp_hash: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    otp_expiry: {
+      type: DataTypes.DATE,
+      allowNull: true,
     },
   },
   {

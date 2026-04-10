@@ -5,7 +5,7 @@ const sendOtpEmail = require("../utils/sendotp");
 
 const sanitizeUser = (user) => {
   const userData = user.toJSON();
-  delete userData.password;
+  delete userData.password_hash;
   return userData;
 };
 
@@ -57,11 +57,11 @@ exports.createUser = async (body) => {
   }
 
   const normalizedEmail = email.toLowerCase();
+  console.log(email);
 
   const existingUser = await User.findOne({
     where: { email: normalizedEmail },
   });
-
   if (existingUser) {
     const error = new Error("User already exists");
     error.statusCode = 400;
@@ -80,15 +80,17 @@ exports.createUser = async (body) => {
     phone : phone ,
     otp_hash: hashedOtp,
     otp_expiry: new Date(Date.now() + 5 * 60 * 1000),
-    is_active: false, // ⭐ important (user not verified yet)
+    is_active: false, 
   });
+
+  console.log(user)
 
   await sendOtpEmail(normalizedEmail, otp);
 
   return {
     message: "OTP sent to registered email",
     email: normalizedEmail,
-    name :name2
+    name :name
   };
 };
 

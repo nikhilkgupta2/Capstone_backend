@@ -1,6 +1,7 @@
 const User = require("../models/userSchema");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
+const DeliveryAgent = require("../models/agent.sql")
 
 const sanitizeUser = (user) => {
   const userData = user.toJSON();

@@ -1,15 +1,7 @@
-const deliveryService = require("../services/deliveryServices");
+const deliveryService = require("../services/deliveryAgentServices");
 const { successResponse, errorResponse } = require("../utils/apiResponce");
 
-// SIGNUP (OTP)
-exports.signUpDelivery = async (req, res) => {
-  try {
-    const data = await deliveryService.createDeliveryAgent(req.body);
-    return successResponse(res, "Signup successful", data, 201);
-  } catch (err) {
-    return errorResponse(res, err.message, null, err.statusCode || 500);
-  }
-};
+
 
 // CRUD
 exports.getAllAgents = async (req, res) => {

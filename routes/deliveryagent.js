@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const deliveryController = require("../controllers/deliveryController");
+const deliveryController = require("../controllers/deliveryAgentController");
 
 const authenticate = require("../middlewere/authenticate_middlewere");
 const roleVerifyMiddlewere = require("../middlewere/roleVerifyMiddlewere");
@@ -19,9 +19,6 @@ router.get(
 );
 
 router.get("/:id", authenticate, deliveryController.getAgentById);
-
-// 👉 SIGNUP (same like user)
-router.post("/", deliveryController.signUpDelivery);
 
 router.patch("/:id", deliveryController.patchAgent);
 router.delete("/:id", deliveryController.deleteAgent);

@@ -64,7 +64,10 @@ exports.signUpUser = async (req, res) => {
     if (!name || !email || !password) {
       return errorResponse(res, "All fields are required", null, 400);
     }
+
+    console.log("Calling signupuserr")
     const data = await userService.createUser({ name, email, password , phone });
+    console.log("Calling get data signup user")
     return successResponse(res, "Signup successful", data, 201);
   } catch (err) {
     return errorResponse(

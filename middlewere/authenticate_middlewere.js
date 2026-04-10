@@ -13,7 +13,6 @@ const authenticate = (req, res, next) => {
     else if (req.cookies && req.cookies.token) {
       token = req.cookies.token;
     }
-    console.log("token ---->", token);
 
     if (!token) {
       return res.status(401).json({
@@ -23,9 +22,8 @@ const authenticate = (req, res, next) => {
     }
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    
+
     req.user = decoded;
-    console.log("authentication successfully --->", req.user);
 
     next();
   } catch (err) {
